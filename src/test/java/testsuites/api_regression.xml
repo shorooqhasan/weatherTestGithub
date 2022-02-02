@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression suite" thread-count="2" parallel="methods">
+    <listeners>
+        <listener class-name="com.qa.utils.api.RestAssuredListener"/>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
+    </listeners>
+    <test name="Weather - Weather By City Name" thread-count="2">
+        <classes>
+
+            <class name="com.client.project.api.tests.featureflow.WeatherTest"/>
+
+        </classes>
+    </test>
+</suite>

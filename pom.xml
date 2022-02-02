@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sample</groupId>
+  <artifactId>diconium-test-automation-framework</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>diconium-test-automation-framework</name>
+  <url>https://030-ci01.intra.diconium.com/job/selenium-template/</url>
+
+
+  <properties>
+    <aspectj.version>1.9.6</aspectj.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <property name="target.dir" value="${base.dir}/target"/>
+    <suiteFile/>
+    <envConfig/>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>test-automation-framework-utils-release</id>
+      <name>test-automation-framework-utils</name>
+      <url>https://nexus.diconium.com/content/repositories/diconium-test-automation-framework-utils-release/</url>
+    </repository>
+    <repository>
+      <id>test-automation-framework-utils-snapshot</id>
+      <name>test-automation-framework-utils-snapshots</name>
+      <url>https://nexus.diconium.com/content/repositories/diconium-test-automation-framework-utils-snapshot/</url>
+    </repository>
+
+<!--    <repository>-->
+<!--      <id>central</id>-->
+<!--      <url>https://repo1.maven.org/maven2</url>-->
+<!--    </repository>-->
+<!--    <repository>-->
+<!--      <id>test-automation-framework-utils</id>-->
+<!--      <url>https://maven.pkg.github.com/vwdfive/test-automation-framework-utils</url>-->
+<!--      <snapshots>-->
+<!--        <enabled>true</enabled>-->
+<!--      </snapshots>-->
+<!--    </repository>-->
+  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>11</source>
+          <target>11</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <useSystemClassLoader>false</useSystemClassLoader>
+          <systemPropertyVariables>
+            <environment>${envConfig}</environment>
+          </systemPropertyVariables>
+          <testFailureIgnore>false</testFailureIgnore>
+          <suiteXmlFiles>
+            <suiteXmlFile>src/test/java/testsuites/${suiteFile}</suiteXmlFile>
+          </suiteXmlFiles>
+          <argLine>
+            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+          </argLine>
+          <!--<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>-->
+        </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+      <plugin>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-maven</artifactId>
+        <version>2.10.0</version>
+      </plugin>
+
+    </plugins>
+  </build>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>com.qa.utils</groupId>
+      <artifactId>test-automation-framework-utils</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+      <dependency>
+          <groupId>org.jetbrains</groupId>
+          <artifactId>annotations</artifactId>
+          <version>RELEASE</version>
+          <scope>compile</scope>
+      </dependency>
+
+  </dependencies>
+
+  <reporting>
+    <excludeDefaults>true</excludeDefaults>
+    <plugins>
+      <plugin>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-maven</artifactId>
+        <version>2.10.0</version>
+        <configuration>
+          <reportVersion>2.10.0</reportVersion>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jxr-plugin</artifactId>
+        <version>3.0.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <configLocation>src/main/resources/checkstyle_config.xml</configLocation>
+        </configuration>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>checkstyle</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
+
+
+</project>
