@@ -91,11 +91,13 @@ public class WeatherFunctions {
         Float tempMax = wrapperModel.getMain().getTemp_max();
         return tempMax;
     }
+    // Helper comment
     public static Float getPressure(Response rawRes) {
         WeatherWrapperModel wrapperModel = rawRes.getBody().as(WeatherWrapperModel.class);
         Float tempMax = wrapperModel.getMain().getPressure();
         return tempMax;
     }
+
 
 }
 

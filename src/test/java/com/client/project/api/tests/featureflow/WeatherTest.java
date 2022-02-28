@@ -2,7 +2,7 @@ package com.client.project.api.tests.featureflow;
 
 import com.client.project.api.request.WeatherRequest;
 import io.restassured.response.Response;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Description;
 
@@ -16,7 +16,7 @@ import static org.testng.Assert.assertEquals;
 
 public class WeatherTest {
 
-    @BeforeTest
+    @BeforeClass
     @Description("Verify Weather Details Retrieval - City ID is not NULL")
     public void testGetWeatherByCityName() throws IOException {
         Response rawRes = WeatherRequest.getCountryDetails("Berlin");
