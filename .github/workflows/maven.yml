@@ -54,7 +54,7 @@ jobs:
                 "url": "https://nexus.diconium.com/content/repositories/central/"
               }
             ]
-          output_file: .m2/settings.xml
+        
 
       - name: Build with Maven
         run: mvn -B package --file pom.xml
