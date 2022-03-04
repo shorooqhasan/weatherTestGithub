@@ -1,0 +1,175 @@
+{
+  "uid" : "9984d2391b6d9f6b",
+  "name" : "verifyHumidityIsPercentage",
+  "fullName" : "com.client.project.api.tests.featureflow.WeatherTest.verifyHumidityIsPercentage",
+  "historyId" : "8b0f53fd3817185b67cef7663c5eab9",
+  "time" : {
+    "start" : 1646397048190,
+    "stop" : 1646397048814,
+    "duration" : 624
+  },
+  "description" : "Verify Weather Details Retrieval - Humidity is percentage",
+  "descriptionHtml" : "<p>Verify Weather Details Retrieval - Humidity is percentage</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get Country by Country Name ",
+      "time" : {
+        "start" : 1646397048190,
+        "stop" : 1646397048798,
+        "duration" : 608
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from Environment config file",
+        "time" : {
+          "start" : 1646397048191,
+          "stop" : 1646397048192,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "INFO: Tests are run on defaultconfig",
+          "time" : {
+            "start" : 1646397048191,
+            "stop" : 1646397048191,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "INFO: https://api.openweathermap.org/data/2.5/weather is read from environment file",
+          "time" : {
+            "start" : 1646397048192,
+            "stop" : 1646397048192,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "27b18b599709848b",
+        "name" : "response body :",
+        "source" : "27b18b599709848b.txt",
+        "type" : "text/plain",
+        "size" : 472
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az449-688"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyHumidityIsPercentage"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "thread",
+    "value" : "2205@fv-az449-688.TestNG-test=Weather - Weather By City Name-1(17)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "package",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9dac56c2103e54a5",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/9dac56c2103e54a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850155,
+          "stop" : 1646395850287,
+          "duration" : 132
+        }
+      }, {
+        "uid" : "f6dc22565252e495",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/f6dc22565252e495",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395432691,
+          "stop" : 1646395433165,
+          "duration" : 474
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9984d2391b6d9f6b.json",
+  "parameterValues" : [ ]
+}

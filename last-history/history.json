@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "1b9f56f157a122c4",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/1b9f56f157a122c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397049344,
+        "stop" : 1646397049809,
+        "duration" : 465
+      }
+    }, {
       "uid" : "330a1d0126f266fa",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/330a1d0126f266fa",
       "status" : "passed",
@@ -33,11 +42,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "3e85dee32825f95d",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/3e85dee32825f95d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397048537,
+        "stop" : 1646397049459,
+        "duration" : 922
+      }
+    }, {
       "uid" : "2d2d8d7c062d3c3b",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/2d2d8d7c062d3c3b",
       "status" : "passed",
@@ -62,11 +80,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "b04781cd49bbf4b3",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/b04781cd49bbf4b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397047676,
+        "stop" : 1646397048188,
+        "duration" : 512
+      }
+    }, {
       "uid" : "e28e6ae66d405aba",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/e28e6ae66d405aba",
       "status" : "passed",
@@ -91,11 +118,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "cee2f3d57ba4e4fe",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/cee2f3d57ba4e4fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397049461,
+        "stop" : 1646397049952,
+        "duration" : 491
+      }
+    }, {
       "uid" : "6570c3f598062fe4",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/6570c3f598062fe4",
       "status" : "passed",
@@ -120,11 +156,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "332d47cf2aefd9ff",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/332d47cf2aefd9ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397048049,
+        "stop" : 1646397048535,
+        "duration" : 486
+      }
+    }, {
       "uid" : "cc92ca42d20342a1",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/cc92ca42d20342a1",
       "status" : "passed",
@@ -149,11 +194,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e41e4e93f9c72af3",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/e41e4e93f9c72af3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397049811,
+        "stop" : 1646397050273,
+        "duration" : 462
+      }
+    }, {
       "uid" : "e78dc992521d61fd",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/e78dc992521d61fd",
       "status" : "passed",
@@ -178,11 +232,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "8b6db73c0d2f6f5d",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/8b6db73c0d2f6f5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397047553,
+        "stop" : 1646397048048,
+        "duration" : 495
+      }
+    }, {
       "uid" : "1858a495fe58fbfa",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/1858a495fe58fbfa",
       "status" : "passed",
@@ -207,11 +270,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "32e228b9d58223a5",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/32e228b9d58223a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397050426,
+        "stop" : 1646397050899,
+        "duration" : 473
+      }
+    }, {
       "uid" : "5f7ae9caef42c0a",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/5f7ae9caef42c0a",
       "status" : "passed",
@@ -236,11 +308,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "500832f382ee5b5c",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/500832f382ee5b5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397046271,
+        "stop" : 1646397047674,
+        "duration" : 1403
+      }
+    }, {
       "uid" : "c00fd43c4f611da8",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/c00fd43c4f611da8",
       "status" : "passed",
@@ -265,11 +346,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "9984d2391b6d9f6b",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/9984d2391b6d9f6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397048190,
+        "stop" : 1646397048814,
+        "duration" : 624
+      }
+    }, {
       "uid" : "9dac56c2103e54a5",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/9dac56c2103e54a5",
       "status" : "passed",
@@ -294,11 +384,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "2019e9349790e832",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/2019e9349790e832",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397046268,
+        "stop" : 1646397047543,
+        "duration" : 1275
+      }
+    }, {
       "uid" : "6e5bbad4722864",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/6e5bbad4722864",
       "status" : "passed",
@@ -323,11 +422,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "784ed7d189f448e8",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/784ed7d189f448e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397048815,
+        "stop" : 1646397049343,
+        "duration" : 528
+      }
+    }, {
       "uid" : "64c6a3664dafe02b",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/64c6a3664dafe02b",
       "status" : "passed",
@@ -352,11 +460,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "946e54c68fb8de23",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/946e54c68fb8de23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397050772,
+        "stop" : 1646397051248,
+        "duration" : 476
+      }
+    }, {
       "uid" : "1a0bc423f8883437",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/1a0bc423f8883437",
       "status" : "passed",
@@ -381,11 +498,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "39d78c41a6475381",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/39d78c41a6475381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397049955,
+        "stop" : 1646397050421,
+        "duration" : 466
+      }
+    }, {
       "uid" : "839bee46beff923d",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/839bee46beff923d",
       "status" : "passed",
@@ -410,11 +536,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "309487247cfbacae",
+      "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/309487247cfbacae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646397050283,
+        "stop" : 1646397050771,
+        "duration" : 488
+      }
+    }, {
       "uid" : "f409cf3ffb525fc3",
       "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/f409cf3ffb525fc3",
       "status" : "passed",

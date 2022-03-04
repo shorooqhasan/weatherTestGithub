@@ -2,195 +2,195 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "verifyCloudsAllIsPercentage",
-    "uid" : "83b2428f28a7279b",
+    "uid" : "2019e9349790e832",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395430632,
-      "stop" : 1646395432054,
-      "duration" : 1422
+      "start" : 1646397046268,
+      "stop" : 1646397047543,
+      "duration" : 1275
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifyCityNameValue",
-    "uid" : "f265ce9993c531a0",
+    "uid" : "500832f382ee5b5c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395430633,
-      "stop" : 1646395432204,
-      "duration" : 1571
+      "start" : 1646397046271,
+      "stop" : 1646397047674,
+      "duration" : 1403
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifyCoordsValue",
-    "uid" : "c7ffcec8eb2cf8a0",
+    "uid" : "8b6db73c0d2f6f5d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395432065,
-      "stop" : 1646395432595,
-      "duration" : 530
+      "start" : 1646397047553,
+      "stop" : 1646397048048,
+      "duration" : 495
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifyCountryValue",
-    "uid" : "fda11d1904d71e9b",
+    "uid" : "b04781cd49bbf4b3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395432206,
-      "stop" : 1646395432688,
-      "duration" : 482
+      "start" : 1646397047676,
+      "stop" : 1646397048188,
+      "duration" : 512
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifyHumidityIsNotNegativeValue",
-    "uid" : "f7bed9f3ab9d4610",
+    "uid" : "332d47cf2aefd9ff",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395432598,
-      "stop" : 1646395433087,
-      "duration" : 489
+      "start" : 1646397048049,
+      "stop" : 1646397048535,
+      "duration" : 486
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifyHumidityIsPercentage",
-    "uid" : "f6dc22565252e495",
+    "uid" : "9984d2391b6d9f6b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395432691,
-      "stop" : 1646395433165,
-      "duration" : 474
+      "start" : 1646397048190,
+      "stop" : 1646397048814,
+      "duration" : 624
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifyMaxTempValueIsLessThanMaximum",
-    "uid" : "60e859b2cd0d6ae7",
+    "uid" : "3e85dee32825f95d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395433089,
-      "stop" : 1646395433571,
-      "duration" : 482
+      "start" : 1646397048537,
+      "stop" : 1646397049459,
+      "duration" : 922
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifyMinTempValueIsGreaterThanMinimum",
-    "uid" : "d58861ddb85d1877",
+    "uid" : "784ed7d189f448e8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395433166,
-      "stop" : 1646395433643,
-      "duration" : 477
+      "start" : 1646397048815,
+      "stop" : 1646397049343,
+      "duration" : 528
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifyPressureIsNotNegative",
-    "uid" : "9d5539593f3008b5",
+    "uid" : "1b9f56f157a122c4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395433576,
-      "stop" : 1646395434046,
-      "duration" : 470
+      "start" : 1646397049344,
+      "stop" : 1646397049809,
+      "duration" : 465
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifyReturnedTimeStampIsToday",
-    "uid" : "eb517745c253b36b",
+    "uid" : "cee2f3d57ba4e4fe",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395433646,
-      "stop" : 1646395434131,
-      "duration" : 485
+      "start" : 1646397049461,
+      "stop" : 1646397049952,
+      "duration" : 491
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifySunSetIsDuringPM",
-    "uid" : "9d5b58f3a8a543d9",
+    "uid" : "e41e4e93f9c72af3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395434047,
-      "stop" : 1646395434508,
-      "duration" : 461
+      "start" : 1646397049811,
+      "stop" : 1646397050273,
+      "duration" : 462
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "verifySunriseIsDuringPM",
-    "uid" : "39cbe72641b54e3e",
+    "uid" : "39d78c41a6475381",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395434133,
-      "stop" : 1646395434589,
-      "duration" : 456
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "verifySunsetIsNotBeforeSunRise",
-    "uid" : "88e3ca103149201d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1646395434511,
-      "stop" : 1646395434996,
-      "duration" : 485
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "verifyTempIsNotNegative",
-    "uid" : "2e9d12c3afb009fe",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1646395434591,
-      "stop" : 1646395435057,
+      "start" : 1646397049955,
+      "stop" : 1646397050421,
       "duration" : 466
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "verifyWindSpeedIsNotNegative",
-    "uid" : "3f0c636a935f1949",
+    "name" : "verifySunsetIsNotBeforeSunRise",
+    "uid" : "309487247cfbacae",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646395434998,
-      "stop" : 1646395435471,
+      "start" : 1646397050283,
+      "stop" : 1646397050771,
+      "duration" : 488
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verifyTempIsNotNegative",
+    "uid" : "32e228b9d58223a5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646397050426,
+      "stop" : 1646397050899,
       "duration" : 473
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verifyWindSpeedIsNotNegative",
+    "uid" : "946e54c68fb8de23",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646397050772,
+      "stop" : 1646397051248,
+      "duration" : 476
     },
     "flaky" : false,
     "newFailed" : false,
