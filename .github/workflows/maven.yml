@@ -19,42 +19,7 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           cache: maven
-      - name: maven-settings-xml-action
-        uses: whelk-io/maven-settings-xml-action@v20
-        with:
-          repositories: >
-            [
-              {
-                "id": "diconium-test-automation-framework-utils-release",
-                "url": "https://nexus.diconium.com/content/repositories/diconium-test-automation-framework-utils-release/"
-              },
-              {
-                "id": "diconium-test-automation-framework-utils-snapshot",
-                "url": "https://nexus.diconium.com/content/repositories/diconium-test-automation-framework-utils-snapshot/"
-              }
-            ]
-          servers: >
-            [
-              {
-                "id": "diconium-test-automation-framework-utils-release",
-                "username": "dico-testmanagement-ro",
-                "password": "{VdtkSt6r1WIHyhm0c+IsaKaCJn2qzZJCApD5ZT+kNmY=}"
-              },
-              {
-                "id": "diconium-test-automation-framework-utils-snapshot",
-                "username": "dico-testmanagement-ro",
-                "password": "{VdtkSt6r1WIHyhm0c+IsaKaCJn2qzZJCApD5ZT+kNmY=}"
-              }
-            ]
-          mirrors: >
-            [
-              {
-                "id": "dico-central",
-                "mirrorOf": "central",
-                "url": "https://nexus.diconium.com/content/repositories/central/"
-              }
-            ]
-        
+     
       - name: Print Maven
         run: cat /home/runner/.m2/settings.xml
       - name: Build with Maven
