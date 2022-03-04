@@ -1,0 +1,146 @@
+{
+  "uid" : "9d5539593f3008b5",
+  "name" : "verifyPressureIsNotNegative",
+  "fullName" : "com.client.project.api.tests.featureflow.WeatherTest.verifyPressureIsNotNegative",
+  "historyId" : "c764babf2c859a99f042075d6aada8b8",
+  "time" : {
+    "start" : 1646395433576,
+    "stop" : 1646395434046,
+    "duration" : 470
+  },
+  "description" : "Verify Weather Details Retrieval - Pressure value cannot be negative ",
+  "descriptionHtml" : "<p>Verify Weather Details Retrieval - Pressure value cannot be negative</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get Country by Country Name ",
+      "time" : {
+        "start" : 1646395433578,
+        "stop" : 1646395434033,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from Environment config file",
+        "time" : {
+          "start" : 1646395433578,
+          "stop" : 1646395433580,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "INFO: Tests are run on defaultconfig",
+          "time" : {
+            "start" : 1646395433578,
+            "stop" : 1646395433578,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "INFO: https://api.openweathermap.org/data/2.5/weather is read from environment file",
+          "time" : {
+            "start" : 1646395433580,
+            "stop" : 1646395433580,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ea4d222eec8fd031",
+        "name" : "response body :",
+        "source" : "ea4d222eec8fd031.txt",
+        "type" : "text/plain",
+        "size" : 472
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az457-828"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPressureIsNotNegative"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "thread",
+    "value" : "2272@fv-az457-828.TestNG-test=Weather - Weather By City Name-2(18)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "package",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d5539593f3008b5.json",
+  "parameterValues" : [ ]
+}

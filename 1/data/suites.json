@@ -1,0 +1,212 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Regression suite",
+    "children" : [ {
+      "name" : "Weather - Weather By City Name",
+      "children" : [ {
+        "name" : "com.client.project.api.tests.featureflow.WeatherTest",
+        "children" : [ {
+          "name" : "verifyCloudsAllIsPercentage",
+          "uid" : "83b2428f28a7279b",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395430632,
+            "stop" : 1646395432054,
+            "duration" : 1422
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyCityNameValue",
+          "uid" : "f265ce9993c531a0",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395430633,
+            "stop" : 1646395432204,
+            "duration" : 1571
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyCoordsValue",
+          "uid" : "c7ffcec8eb2cf8a0",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395432065,
+            "stop" : 1646395432595,
+            "duration" : 530
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyCountryValue",
+          "uid" : "fda11d1904d71e9b",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395432206,
+            "stop" : 1646395432688,
+            "duration" : 482
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyHumidityIsNotNegativeValue",
+          "uid" : "f7bed9f3ab9d4610",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395432598,
+            "stop" : 1646395433087,
+            "duration" : 489
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyHumidityIsPercentage",
+          "uid" : "f6dc22565252e495",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395432691,
+            "stop" : 1646395433165,
+            "duration" : 474
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyMaxTempValueIsLessThanMaximum",
+          "uid" : "60e859b2cd0d6ae7",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395433089,
+            "stop" : 1646395433571,
+            "duration" : 482
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyMinTempValueIsGreaterThanMinimum",
+          "uid" : "d58861ddb85d1877",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395433166,
+            "stop" : 1646395433643,
+            "duration" : 477
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyPressureIsNotNegative",
+          "uid" : "9d5539593f3008b5",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395433576,
+            "stop" : 1646395434046,
+            "duration" : 470
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyReturnedTimeStampIsToday",
+          "uid" : "eb517745c253b36b",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395433646,
+            "stop" : 1646395434131,
+            "duration" : 485
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySunSetIsDuringPM",
+          "uid" : "9d5b58f3a8a543d9",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395434047,
+            "stop" : 1646395434508,
+            "duration" : 461
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySunriseIsDuringPM",
+          "uid" : "39cbe72641b54e3e",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395434133,
+            "stop" : 1646395434589,
+            "duration" : 456
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySunsetIsNotBeforeSunRise",
+          "uid" : "88e3ca103149201d",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395434511,
+            "stop" : 1646395434996,
+            "duration" : 485
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyTempIsNotNegative",
+          "uid" : "2e9d12c3afb009fe",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395434591,
+            "stop" : 1646395435057,
+            "duration" : 466
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyWindSpeedIsNotNegative",
+          "uid" : "3f0c636a935f1949",
+          "parentUid" : "465aa793d6aa0a186b486e023baf65de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646395434998,
+            "stop" : 1646395435471,
+            "duration" : 473
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "465aa793d6aa0a186b486e023baf65de"
+      } ],
+      "uid" : "4fd7fd13a2212ecb0696635c9d258c34"
+    } ],
+    "uid" : "4d77e4b86525e0e10aeeffa1e7a7a975"
+  } ],
+  "name" : "suites"
+}
