@@ -20,28 +20,19 @@
   </properties>
 
   <repositories>
-    <repository>
-      <id>test-automation-framework-utils-release</id>
-      <name>test-automation-framework-utils</name>
-      <url>https://nexus.diconium.com/content/repositories/diconium-test-automation-framework-utils-release/</url>
-    </repository>
-    <repository>
-      <id>test-automation-framework-utils-snapshot</id>
-      <name>test-automation-framework-utils-snapshots</name>
-      <url>https://nexus.diconium.com/content/repositories/diconium-test-automation-framework-utils-snapshot/</url>
-    </repository>
+
 
 <!--    <repository>-->
 <!--      <id>central</id>-->
 <!--      <url>https://repo1.maven.org/maven2</url>-->
 <!--    </repository>-->
-<!--    <repository>-->
-<!--      <id>test-automation-framework-utils</id>-->
-<!--      <url>https://maven.pkg.github.com/vwdfive/test-automation-framework-utils</url>-->
-<!--      <snapshots>-->
-<!--        <enabled>true</enabled>-->
-<!--      </snapshots>-->
-<!--    </repository>-->
+   <repository>
+     <id>test-automation-framework-utils</id>
+    <url>https://maven.pkg.github.com/vwdfive/test-automation-framework-utils</url>
+    <snapshots>
+     <enabled>true</enabled>
+     </snapshots>
+   </repository>
   </repositories>
 
   <build>
