@@ -1,0 +1,212 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az132-988",
+    "children" : [ {
+      "name" : "2326@fv-az132-988.TestNG-test=Weather - Weather By City Name-2(18)",
+      "children" : [ {
+        "name" : "verifyCloudsAllIsPercentage",
+        "uid" : "6e5bbad4722864",
+        "parentUid" : "195a312016e359521967cbe457cb9798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395848842,
+          "stop" : 1646395849845,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyCoordsValue",
+        "uid" : "1858a495fe58fbfa",
+        "parentUid" : "195a312016e359521967cbe457cb9798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395849872,
+          "stop" : 1646395850051,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySunSetIsDuringPM",
+        "uid" : "e78dc992521d61fd",
+        "parentUid" : "195a312016e359521967cbe457cb9798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850476,
+          "stop" : 1646395850598,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySunsetIsNotBeforeSunRise",
+        "uid" : "f409cf3ffb525fc3",
+        "parentUid" : "195a312016e359521967cbe457cb9798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850599,
+          "stop" : 1646395850748,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPressureIsNotNegative",
+        "uid" : "330a1d0126f266fa",
+        "parentUid" : "195a312016e359521967cbe457cb9798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850358,
+          "stop" : 1646395850475,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyMaxTempValueIsLessThanMaximum",
+        "uid" : "2d2d8d7c062d3c3b",
+        "parentUid" : "195a312016e359521967cbe457cb9798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850218,
+          "stop" : 1646395850354,
+          "duration" : 136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyHumidityIsNotNegativeValue",
+        "uid" : "cc92ca42d20342a1",
+        "parentUid" : "195a312016e359521967cbe457cb9798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850066,
+          "stop" : 1646395850215,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyWindSpeedIsNotNegative",
+        "uid" : "1a0bc423f8883437",
+        "parentUid" : "195a312016e359521967cbe457cb9798",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850751,
+          "stop" : 1646395850893,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "195a312016e359521967cbe457cb9798"
+    }, {
+      "name" : "2326@fv-az132-988.TestNG-test=Weather - Weather By City Name-1(17)",
+      "children" : [ {
+        "name" : "verifyHumidityIsPercentage",
+        "uid" : "9dac56c2103e54a5",
+        "parentUid" : "9cc3a72f4dc0d591070b15edfaf54641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850155,
+          "stop" : 1646395850287,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyReturnedTimeStampIsToday",
+        "uid" : "6570c3f598062fe4",
+        "parentUid" : "9cc3a72f4dc0d591070b15edfaf54641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850419,
+          "stop" : 1646395850560,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySunriseIsDuringPM",
+        "uid" : "839bee46beff923d",
+        "parentUid" : "9cc3a72f4dc0d591070b15edfaf54641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850561,
+          "stop" : 1646395850687,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyCountryValue",
+        "uid" : "e28e6ae66d405aba",
+        "parentUid" : "9cc3a72f4dc0d591070b15edfaf54641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850002,
+          "stop" : 1646395850152,
+          "duration" : 150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyMinTempValueIsGreaterThanMinimum",
+        "uid" : "64c6a3664dafe02b",
+        "parentUid" : "9cc3a72f4dc0d591070b15edfaf54641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850293,
+          "stop" : 1646395850418,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyCityNameValue",
+        "uid" : "c00fd43c4f611da8",
+        "parentUid" : "9cc3a72f4dc0d591070b15edfaf54641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395848846,
+          "stop" : 1646395849999,
+          "duration" : 1153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyTempIsNotNegative",
+        "uid" : "5f7ae9caef42c0a",
+        "parentUid" : "9cc3a72f4dc0d591070b15edfaf54641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850688,
+          "stop" : 1646395850801,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9cc3a72f4dc0d591070b15edfaf54641"
+    } ],
+    "uid" : "9b12549fbbc20557716eb9c44edea422"
+  } ],
+  "name" : "timeline"
+}
