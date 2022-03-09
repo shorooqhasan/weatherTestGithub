@@ -1,4 +1,4 @@
-name: API regression
+name: api test
 
 on:
   push:
