@@ -3,6 +3,20 @@
   "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 1969
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 4980
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 2051
   }
 }, {

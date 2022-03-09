@@ -1,0 +1,184 @@
+{
+  "uid" : "4ded77e8d8fd951c",
+  "name" : "verifyWindSpeedIsNotNegative",
+  "fullName" : "com.client.project.api.tests.featureflow.WeatherTest.verifyWindSpeedIsNotNegative",
+  "historyId" : "f45364b203dd3d359164c9b4d9e47bf7",
+  "time" : {
+    "start" : 1646843691756,
+    "stop" : 1646843691885,
+    "duration" : 129
+  },
+  "description" : "Verify Weather Details Retrieval - Wind Speed cannot be negative ",
+  "descriptionHtml" : "<p>Verify Weather Details Retrieval - Wind Speed cannot be negative</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get Country by Country Name ",
+      "time" : {
+        "start" : 1646843691757,
+        "stop" : 1646843691880,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from Environment config file",
+        "time" : {
+          "start" : 1646843691757,
+          "stop" : 1646843691758,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "INFO: Tests are run on defaultconfig",
+          "time" : {
+            "start" : 1646843691757,
+            "stop" : 1646843691757,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "INFO: https://api.openweathermap.org/data/2.5/weather is read from environment file",
+          "time" : {
+            "start" : 1646843691758,
+            "stop" : 1646843691758,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "fbb6bce0e51a2c81",
+        "name" : "response body :",
+        "source" : "fbb6bce0e51a2c81.txt",
+        "type" : "text/plain",
+        "size" : 463
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-404"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyWindSpeedIsNotNegative"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "thread",
+    "value" : "2165@fv-az196-404.TestNG-test=Weather - Weather By City Name-2(18)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "package",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "946e54c68fb8de23",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/946e54c68fb8de23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646397050772,
+          "stop" : 1646397051248,
+          "duration" : 476
+        }
+      }, {
+        "uid" : "1a0bc423f8883437",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/1a0bc423f8883437",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850751,
+          "stop" : 1646395850893,
+          "duration" : 142
+        }
+      }, {
+        "uid" : "3f0c636a935f1949",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/3f0c636a935f1949",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395434998,
+          "stop" : 1646395435471,
+          "duration" : 473
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4ded77e8d8fd951c.json",
+  "parameterValues" : [ ]
+}

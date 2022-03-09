@@ -8,4 +8,14 @@
   "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1/",
   "reportName" : "Allure Report with history",
   "data" : { }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
 } ]

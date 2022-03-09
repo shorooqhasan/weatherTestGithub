@@ -1,150 +1,150 @@
 [ {
-  "uid" : "f409cf3ffb525fc3",
-  "name" : "verifySunsetIsNotBeforeSunRise",
-  "time" : {
-    "start" : 1646395850599,
-    "stop" : 1646395850748,
-    "duration" : 149
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e28e6ae66d405aba",
-  "name" : "verifyCountryValue",
-  "time" : {
-    "start" : 1646395850002,
-    "stop" : 1646395850152,
-    "duration" : 150
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "839bee46beff923d",
+  "uid" : "bd4927c72e045e3b",
   "name" : "verifySunriseIsDuringPM",
   "time" : {
-    "start" : 1646395850561,
-    "stop" : 1646395850687,
-    "duration" : 126
+    "start" : 1646843691560,
+    "stop" : 1646843691676,
+    "duration" : 116
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5f7ae9caef42c0a",
-  "name" : "verifyTempIsNotNegative",
-  "time" : {
-    "start" : 1646395850688,
-    "stop" : 1646395850801,
-    "duration" : 113
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "330a1d0126f266fa",
-  "name" : "verifyPressureIsNotNegative",
-  "time" : {
-    "start" : 1646395850358,
-    "stop" : 1646395850475,
-    "duration" : 117
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "64c6a3664dafe02b",
-  "name" : "verifyMinTempValueIsGreaterThanMinimum",
-  "time" : {
-    "start" : 1646395850293,
-    "stop" : 1646395850418,
-    "duration" : 125
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e78dc992521d61fd",
-  "name" : "verifySunSetIsDuringPM",
-  "time" : {
-    "start" : 1646395850476,
-    "stop" : 1646395850598,
-    "duration" : 122
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6e5bbad4722864",
+  "uid" : "9020112c2bae666d",
   "name" : "verifyCloudsAllIsPercentage",
   "time" : {
-    "start" : 1646395848842,
-    "stop" : 1646395849845,
-    "duration" : 1003
+    "start" : 1646843689917,
+    "stop" : 1646843690858,
+    "duration" : 941
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1858a495fe58fbfa",
-  "name" : "verifyCoordsValue",
-  "time" : {
-    "start" : 1646395849872,
-    "stop" : 1646395850051,
-    "duration" : 179
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc92ca42d20342a1",
-  "name" : "verifyHumidityIsNotNegativeValue",
-  "time" : {
-    "start" : 1646395850066,
-    "stop" : 1646395850215,
-    "duration" : 149
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d2d8d7c062d3c3b",
+  "uid" : "8866b4c336df93d6",
   "name" : "verifyMaxTempValueIsLessThanMaximum",
   "time" : {
-    "start" : 1646395850218,
-    "stop" : 1646395850354,
+    "start" : 1646843691169,
+    "stop" : 1646843691305,
     "duration" : 136
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9dac56c2103e54a5",
-  "name" : "verifyHumidityIsPercentage",
+  "uid" : "e661be06aa6a6b30",
+  "name" : "verifyHumidityIsNotNegativeValue",
   "time" : {
-    "start" : 1646395850155,
-    "stop" : 1646395850287,
-    "duration" : 132
+    "start" : 1646843691030,
+    "stop" : 1646843691167,
+    "duration" : 137
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c00fd43c4f611da8",
-  "name" : "verifyCityNameValue",
-  "time" : {
-    "start" : 1646395848846,
-    "stop" : 1646395849999,
-    "duration" : 1153
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6570c3f598062fe4",
+  "uid" : "e95d81b9d8f65e09",
   "name" : "verifyReturnedTimeStampIsToday",
   "time" : {
-    "start" : 1646395850419,
-    "stop" : 1646395850560,
-    "duration" : 141
+    "start" : 1646843691418,
+    "stop" : 1646843691553,
+    "duration" : 135
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1a0bc423f8883437",
+  "uid" : "c3a3e61b4e4ad96d",
+  "name" : "verifyCityNameValue",
+  "time" : {
+    "start" : 1646843689916,
+    "stop" : 1646843690985,
+    "duration" : 1069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa3377726bafacac",
+  "name" : "verifyCoordsValue",
+  "time" : {
+    "start" : 1646843690882,
+    "stop" : 1646843691028,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39c6ba0896ece77",
+  "name" : "verifyMinTempValueIsGreaterThanMinimum",
+  "time" : {
+    "start" : 1646843691280,
+    "stop" : 1646843691417,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c387643b87e36279",
+  "name" : "verifyPressureIsNotNegative",
+  "time" : {
+    "start" : 1646843691308,
+    "stop" : 1646843691433,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70f812fd9431a91",
+  "name" : "verifySunSetIsDuringPM",
+  "time" : {
+    "start" : 1646843691434,
+    "stop" : 1646843691564,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ded77e8d8fd951c",
   "name" : "verifyWindSpeedIsNotNegative",
   "time" : {
-    "start" : 1646395850751,
-    "stop" : 1646395850893,
-    "duration" : 142
+    "start" : 1646843691756,
+    "stop" : 1646843691885,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14e0e9925165945a",
+  "name" : "verifySunsetIsNotBeforeSunRise",
+  "time" : {
+    "start" : 1646843691567,
+    "stop" : 1646843691754,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fcbff13d6d46a0c",
+  "name" : "verifyHumidityIsPercentage",
+  "time" : {
+    "start" : 1646843691138,
+    "stop" : 1646843691274,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62062181cd5af3b",
+  "name" : "verifyTempIsNotNegative",
+  "time" : {
+    "start" : 1646843691679,
+    "stop" : 1646843691810,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e717fbabfa03d1ef",
+  "name" : "verifyCountryValue",
+  "time" : {
+    "start" : 1646843690989,
+    "stop" : 1646843691132,
+    "duration" : 143
   },
   "status" : "passed",
   "severity" : "normal"

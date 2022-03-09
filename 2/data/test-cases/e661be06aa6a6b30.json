@@ -1,0 +1,199 @@
+{
+  "uid" : "e661be06aa6a6b30",
+  "name" : "verifyHumidityIsNotNegativeValue",
+  "fullName" : "com.client.project.api.tests.featureflow.WeatherTest.verifyHumidityIsNotNegativeValue",
+  "historyId" : "e7ac222aadc8af9cdcdff95f981e9d24",
+  "time" : {
+    "start" : 1646843691030,
+    "stop" : 1646843691167,
+    "duration" : 137
+  },
+  "description" : "Verify Weather Details Retrieval - Humidity cannot be negative ",
+  "descriptionHtml" : "<p>Verify Weather Details Retrieval - Humidity cannot be negative</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get Country by Country Name ",
+      "time" : {
+        "start" : 1646843691031,
+        "stop" : 1646843691148,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from Environment config file",
+        "time" : {
+          "start" : 1646843691031,
+          "stop" : 1646843691038,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "INFO: Tests are run on defaultconfig",
+          "time" : {
+            "start" : 1646843691033,
+            "stop" : 1646843691033,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "INFO: https://api.openweathermap.org/data/2.5/weather is read from environment file",
+          "time" : {
+            "start" : 1646843691038,
+            "stop" : 1646843691038,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "bfead62d46daa50d",
+        "name" : "response body :",
+        "source" : "bfead62d46daa50d.txt",
+        "type" : "text/plain",
+        "size" : 467
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Humidity is -> positive",
+      "time" : {
+        "start" : 1646843691166,
+        "stop" : 1646843691166,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-404"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyHumidityIsNotNegativeValue"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "thread",
+    "value" : "2165@fv-az196-404.TestNG-test=Weather - Weather By City Name-2(18)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "package",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "332d47cf2aefd9ff",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/332d47cf2aefd9ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646397048049,
+          "stop" : 1646397048535,
+          "duration" : 486
+        }
+      }, {
+        "uid" : "cc92ca42d20342a1",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/cc92ca42d20342a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850066,
+          "stop" : 1646395850215,
+          "duration" : 149
+        }
+      }, {
+        "uid" : "f7bed9f3ab9d4610",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/f7bed9f3ab9d4610",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395432598,
+          "stop" : 1646395433087,
+          "duration" : 489
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e661be06aa6a6b30.json",
+  "parameterValues" : [ ]
+}

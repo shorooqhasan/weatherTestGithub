@@ -22,4 +22,28 @@
     "unknown" : 0,
     "total" : 15
   }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 15,
+    "unknown" : 0,
+    "total" : 15
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 15,
+    "unknown" : 0,
+    "total" : 15
+  }
 } ]

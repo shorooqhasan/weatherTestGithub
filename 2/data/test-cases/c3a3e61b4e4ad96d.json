@@ -1,0 +1,310 @@
+{
+  "uid" : "c3a3e61b4e4ad96d",
+  "name" : "verifyCityNameValue",
+  "fullName" : "com.client.project.api.tests.featureflow.WeatherTest.verifyCityNameValue",
+  "historyId" : "94809d444c8ccfdc9be7f895f77b2a93",
+  "time" : {
+    "start" : 1646843689916,
+    "stop" : 1646843690985,
+    "duration" : 1069
+  },
+  "description" : "Verify Weather Details Retrieval -  City name is correct",
+  "descriptionHtml" : "<p>Verify Weather Details Retrieval -  City name is correct</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get Country by Country Name ",
+      "time" : {
+        "start" : 1646843686805,
+        "stop" : 1646843689719,
+        "duration" : 2914
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from Environment config file",
+        "time" : {
+          "start" : 1646843686810,
+          "stop" : 1646843687805,
+          "duration" : 995
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "INFO: Tests are run on defaultconfig",
+          "time" : {
+            "start" : 1646843687708,
+            "stop" : 1646843687761,
+            "duration" : 53
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "INFO: https://api.openweathermap.org/data/2.5/weather is read from environment file",
+          "time" : {
+            "start" : 1646843687805,
+            "stop" : 1646843687805,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "6efcc5dcbf086950",
+        "name" : "response body :",
+        "source" : "6efcc5dcbf086950.txt",
+        "type" : "text/plain",
+        "size" : 463
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: city Id is:",
+      "time" : {
+        "start" : 1646843689856,
+        "stop" : 1646843689856,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "INFO:  City data retrieved successfully : 2950159",
+      "time" : {
+        "start" : 1646843689857,
+        "stop" : 1646843689857,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "INFO: Details retrieved",
+      "time" : {
+        "start" : 1646843689857,
+        "stop" : 1646843689858,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get Country by Country Name ",
+      "time" : {
+        "start" : 1646843689944,
+        "stop" : 1646843690119,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from Environment config file",
+        "time" : {
+          "start" : 1646843689944,
+          "stop" : 1646843689946,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "INFO: Tests are run on defaultconfig",
+          "time" : {
+            "start" : 1646843689945,
+            "stop" : 1646843689945,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "INFO: https://api.openweathermap.org/data/2.5/weather is read from environment file",
+          "time" : {
+            "start" : 1646843689946,
+            "stop" : 1646843689946,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "10d0dce40181db06",
+        "name" : "response body :",
+        "source" : "10d0dce40181db06.txt",
+        "type" : "text/plain",
+        "size" : 463
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Wrapper class-- >WeatherWrapperModel(coord=CoordModel(lon=13.4105, lat=52.5244), weather=[WeatherModel(id=800, mai...",
+      "time" : {
+        "start" : 1646843690984,
+        "stop" : 1646843690984,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-404"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyCityNameValue"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "thread",
+    "value" : "2165@fv-az196-404.TestNG-test=Weather - Weather By City Name-1(17)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "package",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "500832f382ee5b5c",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/500832f382ee5b5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646397046271,
+          "stop" : 1646397047674,
+          "duration" : 1403
+        }
+      }, {
+        "uid" : "c00fd43c4f611da8",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/c00fd43c4f611da8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395848846,
+          "stop" : 1646395849999,
+          "duration" : 1153
+        }
+      }, {
+        "uid" : "f265ce9993c531a0",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/f265ce9993c531a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395430633,
+          "stop" : 1646395432204,
+          "duration" : 1571
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c3a3e61b4e4ad96d.json",
+  "parameterValues" : [ ]
+}
