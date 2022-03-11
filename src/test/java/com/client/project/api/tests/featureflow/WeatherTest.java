@@ -52,9 +52,7 @@ public class WeatherTest {
         Float lat =  latitudeValue(rawRes);
         assertEquals(lat.toString(),"30.0626","Wrong latitude");
         assertEquals(lon.toString(),"31.2497","Wrong longitude");
-
     }
-
     @Test
     @Description("Verify Weather Details Retrieval - Verify Sunrise time is not after sunset time ")
     public void verifySunsetIsNotBeforeSunRise() throws IOException {
@@ -64,7 +62,6 @@ public class WeatherTest {
         Integer sunSet = getSunSet(rawRes);
         String result =  verifyValueXnotExceedingValueY(sunSet,sunRise);
         assertEquals(result, "Test is passed","Sunrise time cannot be after sunset time");
-
     }
     @Test
     @Description("Verify Weather Details Retrieval - Wind Speed cannot be negative ")
@@ -84,7 +81,6 @@ public class WeatherTest {
         String result = verifyValueIsNotNegative(tempValue);
         assertEquals(result,"positive","Value cannot be negative");
     }
-
     @Test
     @Description("Verify Weather Details Retrieval - Humidity cannot be negative ")
     public void verifyHumidityIsNotNegativeValue() throws IOException {
@@ -95,7 +91,6 @@ public class WeatherTest {
         logInfo("Humidity is -> " + result);
         assertEquals(result,"positive","Value cannot be negative");
     }
-
     @Test
     @Description("Verify Weather Details Retrieval - Humidity is percentage")
     public void verifyHumidityIsPercentage() throws IOException {
@@ -116,7 +111,6 @@ public class WeatherTest {
         String rise = verifySunRiseTime(time);
         assertEquals(rise,"true","sunrise is not during AM period");
     }
-
     @Test
     @Description("Verify Weather Details Retrieval - verify sunset is during PM period")
     public void verifySunSetIsDuringPM() throws IOException {
