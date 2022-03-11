@@ -1,0 +1,223 @@
+{
+  "uid" : "396f6fb33da6acfd",
+  "name" : "verifyCountryValue",
+  "fullName" : "com.client.project.api.tests.featureflow.WeatherTest.verifyCountryValue",
+  "historyId" : "e5739a57390bf91bf19fc70462589a20",
+  "time" : {
+    "start" : 1647010220702,
+    "stop" : 1647010221261,
+    "duration" : 559
+  },
+  "description" : "Verify Weather Details Retrieval - Country value is correct",
+  "descriptionHtml" : "<p>Verify Weather Details Retrieval - Country value is correct</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get Country by Country Name ",
+      "time" : {
+        "start" : 1647010220704,
+        "stop" : 1647010221236,
+        "duration" : 532
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from Environment config file",
+        "time" : {
+          "start" : 1647010220704,
+          "stop" : 1647010220710,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "INFO: Tests are run on defaultconfig",
+          "time" : {
+            "start" : 1647010220706,
+            "stop" : 1647010220706,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "INFO: https://api.openweathermap.org/data/2.5/weather is read from environment file",
+          "time" : {
+            "start" : 1647010220709,
+            "stop" : 1647010220710,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "42d80626c01eda7c",
+        "name" : "response body :",
+        "source" : "42d80626c01eda7c.txt",
+        "type" : "text/plain",
+        "size" : 462
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "INFO: Country NAme-->>DE",
+      "time" : {
+        "start" : 1647010221260,
+        "stop" : 1647010221260,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "INFO: country name->>> DE",
+      "time" : {
+        "start" : 1647010221261,
+        "stop" : 1647010221261,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az449-557"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyCountryValue"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "thread",
+    "value" : "2251@fv-az449-557.TestNG-test=Weather - Weather By City Name-1(17)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "package",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "e717fbabfa03d1ef",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/e717fbabfa03d1ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646843690989,
+          "stop" : 1646843691132,
+          "duration" : 143
+        }
+      }, {
+        "uid" : "b04781cd49bbf4b3",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/b04781cd49bbf4b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646397047676,
+          "stop" : 1646397048188,
+          "duration" : 512
+        }
+      }, {
+        "uid" : "e28e6ae66d405aba",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/e28e6ae66d405aba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850002,
+          "stop" : 1646395850152,
+          "duration" : 150
+        }
+      }, {
+        "uid" : "fda11d1904d71e9b",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/fda11d1904d71e9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395432206,
+          "stop" : 1646395432688,
+          "duration" : 482
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "396f6fb33da6acfd.json",
+  "parameterValues" : [ ]
+}

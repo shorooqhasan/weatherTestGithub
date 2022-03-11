@@ -1,0 +1,151 @@
+[ {
+  "uid" : "91037271291d6b14",
+  "name" : "verifyTempIsNotNegative",
+  "time" : {
+    "start" : 1647010223203,
+    "stop" : 1647010223675,
+    "duration" : 472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dc3065063adb7e0",
+  "name" : "verifyHumidityIsNotNegativeValue",
+  "time" : {
+    "start" : 1647010221078,
+    "stop" : 1647010221563,
+    "duration" : 485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5d5e2033756e927",
+  "name" : "verifyMinTempValueIsGreaterThanMinimum",
+  "time" : {
+    "start" : 1647010221761,
+    "stop" : 1647010222221,
+    "duration" : 460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "396f6fb33da6acfd",
+  "name" : "verifyCountryValue",
+  "time" : {
+    "start" : 1647010220702,
+    "stop" : 1647010221261,
+    "duration" : 559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84e44d7cd84db2e9",
+  "name" : "verifyMaxTempValueIsLessThanMaximum",
+  "time" : {
+    "start" : 1647010221575,
+    "stop" : 1647010222057,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14263c74122bb2ed",
+  "name" : "verifyReturnedTimeStampIsToday",
+  "time" : {
+    "start" : 1647010222225,
+    "stop" : 1647010222696,
+    "duration" : 471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c27924ce7e076f6",
+  "name" : "verifyCityNameValue",
+  "time" : {
+    "start" : 1647010218983,
+    "stop" : 1647010220699,
+    "duration" : 1716
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5314e9204d1f876a",
+  "name" : "verifyPressureIsNotNegative",
+  "time" : {
+    "start" : 1647010222065,
+    "stop" : 1647010222544,
+    "duration" : 479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c4b2b2d9d9cadf4",
+  "name" : "verifySunSetIsDuringPM",
+  "time" : {
+    "start" : 1647010222553,
+    "stop" : 1647010223016,
+    "duration" : 463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ee467d020b9cbc0",
+  "name" : "verifyCoordsValue",
+  "time" : {
+    "start" : 1647010220549,
+    "stop" : 1647010221074,
+    "duration" : 525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b13f9a068f036e3",
+  "name" : "verifySunsetIsNotBeforeSunRise",
+  "time" : {
+    "start" : 1647010223018,
+    "stop" : 1647010223553,
+    "duration" : 535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48edc30ad1e82e2f",
+  "name" : "verifySunriseIsDuringPM",
+  "time" : {
+    "start" : 1647010222701,
+    "stop" : 1647010223200,
+    "duration" : 499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb60cedfa98bf25b",
+  "name" : "verifyHumidityIsPercentage",
+  "time" : {
+    "start" : 1647010221267,
+    "stop" : 1647010221749,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ffaaa57b4c0c96a",
+  "name" : "verifyCloudsAllIsPercentage",
+  "time" : {
+    "start" : 1647010219011,
+    "stop" : 1647010220536,
+    "duration" : 1525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30a80312ecaf365b",
+  "name" : "verifyWindSpeedIsNotNegative",
+  "time" : {
+    "start" : 1647010223555,
+    "stop" : 1647010224078,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

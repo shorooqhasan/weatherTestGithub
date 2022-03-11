@@ -1,0 +1,193 @@
+{
+  "uid" : "48edc30ad1e82e2f",
+  "name" : "verifySunriseIsDuringPM",
+  "fullName" : "com.client.project.api.tests.featureflow.WeatherTest.verifySunriseIsDuringPM",
+  "historyId" : "18e36e456b2887613d1215feb248bbf9",
+  "time" : {
+    "start" : 1647010222701,
+    "stop" : 1647010223200,
+    "duration" : 499
+  },
+  "description" : "Verify Weather Details Retrieval -  verify sunrise is during AM period",
+  "descriptionHtml" : "<p>Verify Weather Details Retrieval -  verify sunrise is during AM period</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get Country by Country Name ",
+      "time" : {
+        "start" : 1647010222702,
+        "stop" : 1647010223194,
+        "duration" : 492
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get value from Environment config file",
+        "time" : {
+          "start" : 1647010222702,
+          "stop" : 1647010222703,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "INFO: Tests are run on defaultconfig",
+          "time" : {
+            "start" : 1647010222702,
+            "stop" : 1647010222703,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "INFO: https://api.openweathermap.org/data/2.5/weather is read from environment file",
+          "time" : {
+            "start" : 1647010222703,
+            "stop" : 1647010222703,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "37b22cf51d53e41d",
+        "name" : "response body :",
+        "source" : "37b22cf51d53e41d.txt",
+        "type" : "text/plain",
+        "size" : 470
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "fv-az449-557"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySunriseIsDuringPM"
+  }, {
+    "name" : "testSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "thread",
+    "value" : "2251@fv-az449-557.TestNG-test=Weather - Weather By City Name-1(17)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "Weather - Weather By City Name"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "package",
+    "value" : "com.client.project.api.tests.featureflow.WeatherTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "bd4927c72e045e3b",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/bd4927c72e045e3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646843691560,
+          "stop" : 1646843691676,
+          "duration" : 116
+        }
+      }, {
+        "uid" : "39d78c41a6475381",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/39d78c41a6475381",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646397049955,
+          "stop" : 1646397050421,
+          "duration" : 466
+        }
+      }, {
+        "uid" : "839bee46beff923d",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/2//#testresult/839bee46beff923d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395850561,
+          "stop" : 1646395850687,
+          "duration" : 126
+        }
+      }, {
+        "uid" : "39cbe72641b54e3e",
+        "reportUrl" : "https://shorooqhasan.github.io/weatherTestGithub/1//#testresult/39cbe72641b54e3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646395434133,
+          "stop" : 1646395434589,
+          "duration" : 456
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "48edc30ad1e82e2f.json",
+  "parameterValues" : [ ]
+}
